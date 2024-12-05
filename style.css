@@ -3,7 +3,8 @@
     padding: 0;
     border: 0;
     font-size: 98%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'SF Pro Display', sans-serif;
 }
 
 
@@ -16,7 +17,7 @@
     height: 4rem;
     width: 12rem;
     background-color: #F2C94C;
-    border-radius: 24px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,10 +30,32 @@
     color:#EB5757
 }
 
+.main_section {
+    height: 50rem;
+}
+
+.section_header {
+    height: 10rem;
+    padding-left: 18rem;
+    padding-top: 2rem;
+}
+
+.info_lv1 {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #EB5757;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.info_lv3 {
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 /* First section of the website */
 .Main_Intro {
     width: 100%;
-    height: 80rem;
+    height: 70rem;
     background-image: url(img/intro_background.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -111,33 +134,11 @@
 
 
 /* The following is
-the start of section 2 */
-
-.main_section {
-    height: 60rem;
-}
-
-.section_header {
-    height: 10rem;
-    padding-left: 18rem;
-    padding-top: 2rem;
-}
-
-.info_lv1 {
-    font-size: 5rem;
-    font-weight: bold;
-    color: #EB5757;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.info_lv3 {
-    font-size: 1.5rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+the start of section Electric Service */
 
 /* content of the electric service section */
 .Section_content {
-    height: 50rem;
+    height: 40rem;
     background-color: rgba(128, 128, 128, 0.1);
     border-radius: 75% 75% 0 0 / 20% 20% 0 0 ; 
 }
@@ -171,7 +172,7 @@ the start of section 2 */
 }
 
 .content .content_box .box_nav {
-    font-weight: 500;
+    font-weight: 900;
     color: white;
     display: flex;
     width: 10rem;
@@ -187,7 +188,8 @@ the start of section 2 */
 
 /* day la phan about us */
 .second_section{
-    height: 60rem;
+    height: 50rem;
+    padding-top: 10rem;
     margin-top: 2rem;
     background-color: rgba(128, 128, 128, 0.1);
     border-radius:  0 0 75% 75%  / 0 0 20% 20%; 
@@ -233,6 +235,90 @@ the start of section 2 */
 
 /* 
 DUOI DAY LA GALARY */
-.section_galary{
-    height: 60rem;
+
+.main_section .gallary {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 16rem 16rem 16rem 16rem;
+    justify-content: center;
+}
+
+.main_section .gallary .gallary_item {
+    background-image: url(img/gallery.png);
+    height: 14rem;
+    width: 14rem;
+    border-radius: 5%;
+    margin: 1rem;
+}
+
+/* Phan con lai la footer */
+.footer {
+    height: 50rem;
+}
+
+.footer .footer_container {
+    height: 40rem;
+    margin: 2rem 18rem 0 18rem;
+    background-color: #E15252;
+    border-radius: 0 0 10% 10%; 
+}
+
+.footer .footer_container .footer_label {
+    
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    font-weight: 900;
+    color: white;
+}
+
+.footer .footer_container .contact {
+    display:flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_container .contact .contact_input{
+    justify-self: center;
+}
+
+.input_bar {
+    height: 3rem;
+    width: 18rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.confirm_button {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 1.5rem;
+    border-style: solid;
+    border: white solid 0.2rem;
+    justify-self: center;
+}
+
+
+.footer_container .contact .contact_info .info_item{
+    color: white;
+
+    display: flex;
+}
+
+.info_item img {
+    padding: 1.5rem;
+    padding-left: 4rem;
+    padding-right:1rem;
+}
+
+.info_item p {
+    font: 2rem;
+    padding-top: 1.65rem;
+    padding-bottom: 1.5rem;
+    line-height: 1rem;
 }
