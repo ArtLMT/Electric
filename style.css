@@ -3,12 +3,36 @@
     padding: 0;
     border: 0;
     font-size: 98%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* Reuseable modify */
+/* Help button */
+.Button_Seemore{
+    font-weight: 900;
+    font-size: 1rem;
+    height: 4rem;
+    width: 12rem;
+    background-color: #F2C94C;
+    border-radius: 24px 25px 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Need help next to Help button */
+.Button_NeedHelp {
+    margin-left: 2rem;
+    font-weight: 900;
+    font-size: 1rem;
+    color:#EB5757
 }
 
 /* First section of the website */
 .Main_Intro {
     width: 100%;
-    height: 973px;
+    height: 80rem;
     background-image: url(Image/intro_background.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -39,21 +63,19 @@
 }
 
 .Intro_Company .Company_Info .Info_Name {
-    /* font-family: 'Arial Narrow', Arial, sans-serif; */
-    font-size: 3rem;
-    font-weight: 900;
+    font-weight: 650;
 }
 
 .Intro_Company .Company_Info .Info_Sologan {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 100;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
 }
 
 /* Show more or help me container */
 .Main_Intro .Intro_Help {
-    width: 30em;
-    height: 40rem;
+    width: 40em;
+    height: 30rem;
     margin-top: 15rem;
     margin-left:35rem;
 }
@@ -61,6 +83,7 @@
 .Main_Intro .Intro_Help .Help_TopTitle{
     margin:0px;
     font-size: 2rem;
+    height: 1rem;
 }
 
 .Main_Intro .Intro_Help .Help_Title{
@@ -68,7 +91,7 @@
     margin-bottom: 1rem;
     font-size: 4rem;
     font-weight: 800;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #EB5757;
 }
 
@@ -78,31 +101,137 @@
 }
 
 /* In help me -> Button container */
-.Intro_Help .Help_Button {
+ .Help_Button {
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
 }
 
-/* See more and Need help */
 
-.Intro_Help .Help_Button .Button_Seemore {
-    font-weight: 900;
+/* The following is
+the start of section 2 */
+
+.main_section {
+    height: 60rem;
+}
+
+.section_header {
+    height: 10rem;
+    padding-left: 18rem;
+    padding-top: 2rem;
+}
+
+.info_lv1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #EB5757;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.info_lv3 {
     font-size: 1.5rem;
-    height: 4rem;
-    width: 12rem;
-    background-color: #F2C94C;
-    border-radius: 24px 25px 25px 25px;
-    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* content of the electric service section */
+.Section_content {
+    height: 50rem;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 75% 75% 0 0 / 20% 20% 0 0 ; 
+}
+
+.main_section .Section_content .content{
+    display: grid;
     justify-content: center;
+    grid-template-columns: 20rem 20rem 20rem;
+}
+
+.Section_content .content .content_box {
+    height: 18rem;
+    width: 18rem;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    text-align: center;
+    justify-self: center;
+}
+
+.content .content_box .box_img {
+    width: 18rem;
+    height: 12rem;
+    border-radius: 20% 20% 0 0;
+}
+
+.content .content_box .box_text {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.content .content_box .box_nav {
+    font-weight: 500;
+    color: white;
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    background-image: linear-gradient(to right,#EB7598,#FF926F);
+}
+
+
+/* day la phan about us */
+.second_section{
+    height: 60rem;
+    margin-top: 2rem;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius:  0 0 75% 75%  / 0 0 20% 20%; 
+}
+
+.section_container .item {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20rem 20rem 20rem;
+}
+
+.section_container .item .item_container {
+    margin: 4rem  4rem 0 0;
+}
+
+.item .item_container .circle{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #EB5757;
+    border-radius: 50%;
+    color: #EB5757;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.section_container .section_more {
+    margin-top: 3rem;
+    margin-left: 18rem;
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
-.Intro_Help .Help_Button .Button_NeedHelp {
+.section_container .section_more .more_information {
     margin-left: 2rem;
     font-weight: 900;
-    font-size: 1.5rem;
-    color:#EB5757
+    font-size: 1rem;
+    color: #D89595;
+}
+
+/* 
+DUOI DAY LA GALARY */
+.section_galary{
+    height: 60rem;
 }
