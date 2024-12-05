@@ -1,0 +1,108 @@
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 98%;
+}
+
+/* First section of the website */
+.Main_Intro {
+    width: 100%;
+    height: 973px;
+    background-image: url(Image/intro_background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* Container for the company name and logo */
+.Main_Intro .Intro_Company{
+    height: 5rem;
+    width: 35rem;
+    padding-left: 580px;
+    padding-top: 99px;
+    display: flex;
+    justify-content: inline;
+}
+
+.Main_Intro .Intro_Company .Company_Logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+.Intro_Company .Company_Logo .logo {
+    width : 5rem;
+    height: 5rem;
+}
+
+.Main_Intro .Intro_Company .Company_Info {
+    margin-left: 20px;
+}
+
+.Intro_Company .Company_Info .Info_Name {
+    /* font-family: 'Arial Narrow', Arial, sans-serif; */
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.Intro_Company .Company_Info .Info_Sologan {
+    font-size: 1.8rem;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+/* Show more or help me container */
+.Main_Intro .Intro_Help {
+    width: 30em;
+    height: 40rem;
+    margin-top: 15rem;
+    margin-left:35rem;
+}
+
+.Main_Intro .Intro_Help .Help_TopTitle{
+    margin:0px;
+    font-size: 2rem;
+}
+
+.Main_Intro .Intro_Help .Help_Title{
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EB5757;
+}
+
+.Main_Intro .Intro_Help .Help_SupTitle{
+    margin:0;
+    font-size: 1.5rem;
+}
+
+/* In help me -> Button container */
+.Intro_Help .Help_Button {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* See more and Need help */
+
+.Intro_Help .Help_Button .Button_Seemore {
+    font-weight: 900;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 12rem;
+    background-color: #F2C94C;
+    border-radius: 24px 25px 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Intro_Help .Help_Button .Button_NeedHelp {
+    margin-left: 2rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color:#EB5757
+}
