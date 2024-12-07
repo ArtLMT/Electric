@@ -87,13 +87,13 @@
 
 .Intro_Company .Company_Info .Info_Name {
     font-weight: 650;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .Intro_Company .Company_Info .Info_Sologan {
     font-size: 2rem;
     font-weight: 100;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.3rem;
 }
 
 /* Show more or help me container */
@@ -243,8 +243,7 @@ DUOI DAY LA GALARY */
     justify-content: center;
 }
 
-.main_section .gallary .gallary_item {
-    background-image: url(../img/gallery.png);
+.main_section .gallary img {
     height: 14rem;
     width: 14rem;
     border-radius: 5%;
