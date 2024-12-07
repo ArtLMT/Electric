@@ -1,19 +1,16 @@
-* { 
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 98%;
-    /*  */
-    font-family: 'SF Pro Display', sans-serif;
+* {
+    font-family: 'SF Pro Display', sans-serif !important;
 }
-
-
+html {
+    font-size: 98%;
+    scroll-behavior: smooth;
+}
 
 /* Reuseable modify */
 /* Help button */
 .Button_Seemore{
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.5rem;
     height: 4rem;
     width: 12rem;
     background-color: #F2C94C;
@@ -26,7 +23,7 @@
 .Button_NeedHelp {
     margin-left: 2rem;
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color:#EB5757
 }
 
@@ -93,7 +90,7 @@
 .Intro_Company .Company_Info .Info_Sologan {
     font-size: 2rem;
     font-weight: 100;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.35rem;
 }
 
 /* Show more or help me container */
@@ -105,9 +102,7 @@
 }
 
 .Main_Intro .Intro_Help .Help_TopTitle{
-    margin:0px;
     font-size: 2rem;
-    height: 1rem;
 }
 
 .Main_Intro .Intro_Help .Help_Title{
@@ -202,7 +197,7 @@ the start of section Electric Service */
 }
 
 .section_container .item .item_container {
-    margin: 4rem  4rem 0 0;
+    margin: 4rem  2rem 0 0;
 }
 
 .item .item_container .circle{
@@ -229,7 +224,7 @@ the start of section Electric Service */
 .section_container .section_more .more_information {
     margin-left: 2rem;
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #D89595;
 }
 
@@ -239,20 +234,20 @@ DUOI DAY LA GALARY */
 .main_section .gallary {
     margin-top: 3rem;
     display: grid;
-    grid-template-columns: 16rem 16rem 16rem 16rem;
+    grid-template-columns: 15rem 15rem 15rem 15rem;
     justify-content: center;
 }
 
 .main_section .gallary img {
-    height: 14rem;
-    width: 14rem;
+    height: 13.5rem;
+    width: 13.5rem;
     border-radius: 5%;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 /* Phan con lai la footer */
 .footer {
-    height: 50rem;
+    height: 45rem;
 }
 
 .footer .footer_container {
