@@ -338,17 +338,13 @@ DUOI DAY LA GALARY */
 
 .box_nav:active {
     box-shadow: 0.2rem 0.4rem;
-    background-image: linear-gradient(to top,#FF926F ,#EB7598);
+    background-image: linear-gradient(#FF926F ,#EB7598);
 }
+
 
 .content_box:hover{
-    transform: translateY(-0.5rem) translateX(-0.5rem) scale(1.1);
+    transform: translateY(-0.5rem) translateX(-0.5rem) scale(1.15);
     transition: transform 0.3s ease-in-out; /* Smooth transition */
-}
-
-.item_container:hover {
-    transition: transfrom 1s ease-in-out ;
-    transform: translateY(-0.5rem) translateX(-0.5rem) scale(1.1);
 }
 
 .more_information:hover {
